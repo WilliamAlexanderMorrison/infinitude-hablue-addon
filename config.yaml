@@ -1,0 +1,11 @@
+name: "Infinitude"
+description: "Infinitude is an alternative web service for Carrier Infinity Touch and compatible thermostats."
+url: "https://github.com/nebulous/infinitude"
+version: latest
+slug: "infinitude-addon"
+init: false
+arch: 
+   - aarch64
+image: nebulous/infinitude
+ports:
+  3000/tcp: 3000
